@@ -1,0 +1,149 @@
+.ProfilCard {
+  /* background: #01C38D; */
+  right: 61px;
+  padding: 10px;
+  border-radius: 5% 5% 5% 5%;
+  /* opacity: 3; */
+  /* background: #191e29; */
+  background: -webkit-linear-gradient(
+    304deg,
+    #191e29 0%,
+    #01c38d 50%,
+    #191e29 100%
+  );
+  background: linear-gradient(304deg, #008080 0%, #80d0c7 50%, #008080 100%);
+  transition-duration: 0.5s;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.23);
+}
+
+.ProfilCard:hover {
+  -webkit-box-shadow: 3px 3px 10px 3px #80d0c7;
+  -moz-box-shadow: 3px 3px 10px 3px #80d0c7;
+  box-shadow: 3px 3px 10px 3px #80d0c7;
+}
+
+h2 {
+  margin: 0px;
+}
+
+figure {
+  margin: 0px;
+  /* background-image: url("../../assets/heronico.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 250px; */
+  object-fit: contain;
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  margin-bottom: 10px;
+  border-radius: 100%;
+  width: 60%;
+  background: radial-gradient(
+      at bottom right,
+      #213547 0,
+      #213547 25px,
+      rgba(33, 53, 71, 0.2) 25px,
+      rgba(33, 53, 71, 0.2) 50px,
+      rgba(33, 53, 71, 0.75) 50px,
+      rgba(33, 53, 71, 0.75) 75px,
+      rgba(33, 53, 71, 0.25) 75px,
+      rgba(33, 53, 71, 0.25) 100px,
+      rgba(33, 53, 71, 0.3) 100px,
+      rgba(33, 53, 71, 0.3) 125px,
+      rgba(33, 53, 71, 0.75) 125px,
+      rgba(33, 53, 71, 0.75) 150px,
+      rgba(33, 53, 71, 0.2) 150px,
+      rgba(33, 53, 71, 0.2) 175px,
+      transparent 175px,
+      transparent 200px
+    ),
+    radial-gradient(
+      at top left,
+      transparent 0,
+      transparent 25px,
+      rgba(33, 53, 71, 0.2) 25px,
+      rgba(33, 53, 71, 0.2) 50px,
+      rgba(33, 53, 71, 0.75) 50px,
+      rgba(33, 53, 71, 0.75) 75px,
+      rgba(33, 53, 71, 0.3) 75px,
+      rgba(33, 53, 71, 0.3) 100px,
+      rgba(33, 53, 71, 0.25) 100px,
+      rgba(33, 53, 71, 0.25) 125px,
+      rgba(33, 53, 71, 0.75) 125px,
+      rgba(33, 53, 71, 0.75) 150px,
+      rgba(33, 53, 71, 0.2) 150px,
+      rgba(33, 53, 71, 0.2) 175px,
+      #213547 175px,
+      #213547 200px,
+      transparent 200px,
+      transparent 500px
+    );
+  /* background-blend-mode: multiply; */
+  /* background-size: 200px 200px, 200px 200px; */
+  /* background-color: #01c38d; */
+  /* background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); */
+  -webkit-box-shadow: inset 3px 3px 16.5px 3px #213547;
+  -moz-box-shadow: inset 3px 3px 16.5px 3px #213547;
+  box-shadow: inset 3px 3px 16.5px 3px #213547;
+  /* border: solid #213547; */
+  top: -40px;
+  position: relative;
+  border: solid 5px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.23);
+}
+
+.info {
+  color: #213547;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  position: relative;
+  top: -20px;
+}
+
+.contactList {
+  display: block;
+  background: aliceblue;
+  background: rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  margin: 0px;
+  padding: 0px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 5% 5% 5% 5% / 9% 11% 10% 11%;
+  width: 85%;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.23);
+}
+
+.contactList li {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.con {
+  display: flex;
+  justify-content: center;
+  border-radius: 10%;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  margin-right: 10px;
+  padding: 8px;
+}
+
+.cont {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contactList li h3 {
+  margin: 0px;
+}

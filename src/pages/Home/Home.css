@@ -1,0 +1,207 @@
+.body{
+    padding: 1rem 0dvb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    text-align: center;
+}
+
+/*HERO SECTION STYLES*/
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90vh;
+    padding: 0rem 4rem;
+    width: fit-content;
+    background-image: linear-gradient(210deg, #80d0c7 0%, rgba(37, 79, 11, 0) 50%, #80d0c7 100%), url(../../assets/herobackimage.jpg);
+    background-size: cover;
+}
+
+.hero section{
+    width: 60%;
+}
+
+.hero aside{
+    width: 30%;
+}
+
+.socialMediaList{
+    margin-top: 60px;
+color: aquamarine;
+
+}
+
+.socialMediaList ul{
+box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.23);
+
+    display: flex;
+    padding: 0px;
+    width: 40%;
+    justify-content: space-around;
+    background: #7fffd438;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.socialMediaList ul li{
+    display: flex;
+    background: aliceblue;
+    background: rgba(255, 255, 255, 0.5);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 100%;
+    
+}
+
+.socialMediaList > ul > li:hover{
+background-color: #15a072;
+-webkit-transform:scale(1.2);transform:scale(1.2) 2s;
+transition: background-color 2s, scale 3s; 
+box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.23);
+}
+
+
+.socialMediaList ul li a{
+    color: #213547;
+    display: flex;
+        margin: 10px;
+        align-items: center;
+    
+}
+
+
+
+.cont{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/*-------FIN-----------*/
+/*------TAPE STYLES____*/
+.tape{
+    width: 100%;
+}
+
+/*-------FIN-----------*/
+
+/*----WHAT I DO SECTION STYLES----*/
+
+.whatIdo{
+    background-image: radial-gradient(rgba(25, 30, 41, 0.11) 2px, transparent 2px);
+background-size: 32px 32px;
+background-color: #008080;
+    /* padding: 0rem 0rem;
+    display: flex;
+    width:208vh;
+    height: auto;
+    flex-direction: column;
+    background: rgb(34, 38, 57);
+    align-items: center;
+    border-radius: 5%;
+    overflow: hidden; */
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    /* max-width: 98.8vw; */
+    overflow-x: hidden;
+    overflow-x:scroll;
+    /* /* width: 100%; */
+    max-width: 100vw; 
+    margin: 30px 0px 30px;
+}
+
+.whatIdo > div{
+    /* display: flex;
+    width:max-content;
+    gap: 20px;
+    justify-content: space-evenly;
+    overflow: hidden;
+    height: 100%;
+    overflow-x:scroll;
+    margin: 30px; */
+    display: flex;
+    height: 100%;
+    width: fit-content;
+    gap: 20px;
+    /* overflow-x:scroll; */
+    justify-content: space-evenly;
+    margin: 200px 0px 30px;
+
+}
+
+.whatIdo::-webkit-scrollbar {
+    width: 90px; /* Ancho de la barra */
+    height: 9px;
+    scroll-behavior: smooth;
+    
+  }
+  
+  /* Color de fondo de la barra */
+  ::-webkit-scrollbar-track {
+    /* background: #932e2e; */
+    border-radius: 10px;
+  }
+  
+  /* Color y estilo del "thumb" (el área desplazable) */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+  }
+
+  .whatIdo > label{
+    position: absolute;
+}
+
+.whatIdo > label > h1 {
+    text-align: justify;
+    margin-top: 0px;
+    text-decoration: underline;
+
+}
+
+.whatIdo > label > p {
+    width: 50%;
+    color: aliceblue;
+    text-align: justify;
+    margin-top: 0px;
+}
+
+/*-------FIN-----------*/
+
+/*---------MY SKILLS SECTION STYLES----*/
+.mySkills{
+    background-color: #7fffd438;
+}
+.mySkills > div{
+    /* width: 90vw; */
+    /* background-color: #213547; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+/*-------FIN-----------*/
+
+@media screen and (max-width: 780px) {
+    .hero {
+      flex-direction: column;
+      align-items: center;
+      height: fit-content;
+    }
+    .hero section{
+        margin: 30px 0px;
+        width: 100%
+    }
+    
+    .hero aside{
+        width: 70%;
+    }
+  }

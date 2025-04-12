@@ -1,0 +1,36 @@
+.container .heronico{
+    display: flex
+;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.container .heronico b{
+    color: #01C38D;
+}
+
+.container .heronicoimg img{
+    width: 25%;
+    position: absolute;
+    right: 20%;
+    top: 20%;
+    border-radius: 50%;
+}
+
+.container .heronico p {
+    margin-bottom: 30px;
+}
+
+.container .heronico a {
+    background: #01C38D;
+    color: white;
+    padding: 10px;
+    border-radius: 5%;
+}
+
+.container .heronico a:hover{
+    filter: drop-shadow(0 0 2em #01C38D);
+
+}

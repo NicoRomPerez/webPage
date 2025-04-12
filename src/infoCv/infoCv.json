@@ -1,0 +1,137 @@
+{
+    "personal_info": {
+      "full_name": "Nicolas Romero Perez",
+      "document_number": "1.110.589.919",
+      "birth_date": "1998-03-30",
+      "mobile": "3204606193",
+      "email": "nicolas28romero@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/nicolas-romero-5166191a7/"
+    },
+    "profile": {
+      "summary": "Desarrollador de software especializado en Front-end, tecnólogo en ADSI (análisis y desarrollo de sistemas de información). Cuento con habilidades para analizar, gestionar y desarrollar interfaces de usuario dinámicas, reutilizables y escalables. Tengo 3 años de experiencia en la elaboración de proyectos de alto impacto mediante la implementación de interfaces interactivas utilizando tecnologías y frameworks ampliamente utilizados, como React, Angular, JavaScript, entre otros. He colaborado en equipos multidisciplinarios, contribuyendo al éxito de los proyectos mediante la toma de decisiones, una comunicación efectiva y un enfoque orientado a resultados. Me motiva el aprendizaje constante y estoy comprometido a seguir desarrollando soluciones innovadoras y de alta calidad en el campo del desarrollo de software.",
+      "personal_traits": "Soy una persona apasionada por el mundo de la tecnología y todas sus posibilidades. Me distingo por ser amigable, honesto, responsable y organizado. Soy un comunicador efectivo y disfruto trabajando en equipo, aprovecho las fortalezas individuales para alcanzar objetivos comunes. En mi tiempo libre me gusta tocar la guitarra, jugar fútbol y conocer nuevos lugares."
+    },
+    "education": {
+      "specialization": {
+        "title": "Front End Specialist",
+        "start_date": "2023-02",
+        "end_date": "2023-12",
+        "institution": "Digital House"
+      },
+      "professional_training": {
+        "title": "Professional Developer",
+        "start_date": "2021-07",
+        "end_date": "2022-12",
+        "institution": "Digital House"
+      },
+      "technical_training": {
+        "title": "Tecnólogo en análisis y desarrollo de sistemas de información",
+        "start_date": "2019-07",
+        "end_date": "2021-09",
+        "institution": "SENA"
+      },
+      "high_school": {
+        "title": "Bachiller académico",
+        "program": "Avancemos",
+        "graduation_year": "2017",
+        "institution": "Universidad de Ibagué"
+      }
+    },
+    "courses": [
+      "Curso de Frontend Developer (Platzi)",
+      "Curso práctico de HTML y CSS (Platzi)",
+      "Curso profesional de GIT GITHUB (Platzi)",
+      "Curso de pensamiento lógico (Platzi)",
+      "Curso de programación básica (Platzi)",
+      "Curso de Desarrollo Web Online (Platzi)"
+    ],
+    "languages": {
+      "english": "B2"
+    },
+    "work_experience": {
+      "company": "SOAIN SOFTWARE ASSOCIATES S.A.S.",
+      "position": "Desarrollador Front End",
+      "duration": "Feb 2021 - Feb 2024",
+      "responsibilities": [
+        "Participar en la estrategia de desarrollo de interfaces accesibles, adaptables y reutilizables.",
+        "Mantener el código en buen estado para que sea reusable y escalable.",
+        "Realizar la lógica y el código de los componentes de las páginas.",
+        "Implementación y consumo de microservicios para la obtención y/o manejo de la información.",
+        "Trabajo en equipo mediante manejo de versiones en repositorios.",
+        "Coordinar con los equipos de desarrollo para asegurar la implementación adecuada de los requerimientos y el cumplimiento de las historias de usuario."
+      ],
+      "projects": [
+        "FOGACOOP",
+        "PORTAL DE TRÁMITES DE SERVICIOS INVIMA",
+        "VENTANILLA ÚNICA DE TRÁMITES Y SERVICIOS SDS",
+        "FABRICA DE SOFTWARE"
+      ]
+    },
+    "technologies": [
+      "HTML 5",
+      "CSS",
+      "SASS",
+      "BOOTSTRAP",
+      "GIT Y GITHUB",
+      "JAVASCRIPT",
+      "TYPESCRIPT",
+      "ANGULAR",
+      "REACT"
+    ],
+    "skills": [
+        {
+          "title": "Frontend Dev Jr",
+          "description": "Responsible for building and maintaining the user-facing parts of websites and web applications, focusing on responsive design, interactivity, and user experience using technologies like HTML, CSS, JavaScript, and frameworks like React or Angular."
+        },
+        {
+          "title": "Backend Dev Jr",
+          "description": "Works on the server-side logic, databases, and APIs of web applications. Ensures data processing, security, and integration with front-end components using languages like Python, Node.js, Ruby, or Java."
+        },
+        {
+          "title": "Full Stack Dev Jr",
+          "description": "Combines both front-end and back-end development skills to build complete web applications. Works on client-side interfaces, server-side logic, and database management, ensuring seamless communication between all parts of the system."
+        },
+        {
+          "title": "Analista de QA Jr",
+          "description": "Ensures the quality and functionality of software by designing and executing test cases, identifying bugs, and collaborating with developers to improve performance and reliability."
+        },
+        {
+          "title": "Analista de Bases de Datos Jr",
+          "description": "Manages and maintains databases, ensuring data integrity, performance, and security. Works with SQL and NoSQL databases to support application needs and reporting requirements."
+        },
+        {
+          "title": "Analista Jr de Infraestructura",
+          "description": "Supports the deployment, configuration, and maintenance of IT infrastructure, including networks, servers, and cloud services. Ensures system reliability and security."
+        }
+      ],
+    "family_references": [
+      {
+        "name": "Camilo Andrés Morales Perez",
+        "title": "Ingeniero electrónico",
+        "position": "Tech director",
+        "company": "Globant",
+        "phone": "3176592472"
+      },
+      {
+        "name": "Luisa Fernanda Perez Ospina",
+        "title": "Química Farmacéutica",
+        "position": "Química de Desarrollo Galénico",
+        "company": "Tecnoquímicas",
+        "phone": "3174298609"
+      }
+    ],
+    "personal_references": [
+      {
+        "name": "Roniber Alexander Cortes Mora",
+        "position": "Analista",
+        "company": "SURA",
+        "phone": "3163180031"
+      },
+      {
+        "name": "Pedro Nel Morales Feria",
+        "position": "Ingeniero Agrónomo",
+        "company": "Independiente",
+        "phone": "3173518842"
+      }
+    ]
+  }
