@@ -3,6 +3,7 @@ import React from "react";
 // import heronico from "../../assets/heronico.png"
 import "../../components/Header/Header.css"
 import { HashLink } from 'react-router-hash-link';
+import { IoMenu } from "react-icons/io5";
 // import { Link as LinkScroll } from "react-scroll/modules";
 
 export default function Header() {
@@ -16,7 +17,7 @@ export default function Header() {
 
   return (
     <>
-      <div class="header">
+      <header class="header">
 
         <div class="varela-round-regular logo">
           <h1>Ni</h1>
@@ -29,8 +30,11 @@ export default function Header() {
         </div>
         <div  class="menu">
           <ul class="varela-round-regular">{listItems}</ul>
+          <label>
+          <IoMenu size={30}></IoMenu>
+          </label>
         </div>
-      </div>
+      </header>
     </>
   );
 }

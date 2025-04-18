@@ -1,104 +1,109 @@
-.body{
-    padding: 1rem 0dvb;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.body {
+  padding: 0rem 0dvb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.title{
-    text-align: center;
+.title {
+  text-align: center;
 }
 
 /*HERO SECTION STYLES*/
-.hero{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 90vh;
-    padding: 0rem 4rem;
-    width: fit-content;
-    background-image: linear-gradient(210deg, #80d0c7 0%, rgba(37, 79, 11, 0) 50%, #80d0c7 100%), url(../../assets/herobackimage.jpg);
-    background-size: cover;
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 90vh;
+  padding: 0rem 4rem;
+  width: fit-content;
+  background-image: linear-gradient(
+      210deg,
+      #80d0c7 0%,
+      rgba(37, 79, 11, 0) 50%,
+      #80d0c7 100%
+    ),
+    url(../../assets/herobackimage.jpg);
+  background-size: cover;
+  padding-top: 80px;
 }
 
-.hero section{
-    width: 60%;
+.hero section {
+  width: 60%;
 }
 
-.hero aside{
-    width: 30%;
+.hero aside {
+  width: 30%;
 }
 
-.socialMediaList{
-    margin-top: 60px;
-color: aquamarine;
-
+.socialMediaList {
+  margin-top: 60px;
+  color: aquamarine;
 }
 
-.socialMediaList ul{
-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.23);
+.socialMediaList ul {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.23);
 
-    display: flex;
-    padding: 0px;
-    width: 40%;
-    justify-content: space-around;
-    background: #7fffd438;
-    padding: 10px;
-    border-radius: 10px;
+  display: flex;
+  padding: 0px;
+  width: 40%;
+  justify-content: space-around;
+  background: #7fffd438;
+  padding: 10px;
+  border-radius: 10px;
 }
 
-.socialMediaList ul li{
-    display: flex;
-    background: aliceblue;
-    background: rgba(255, 255, 255, 0.5);
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
-    margin: 0px;
-    padding: 0px;
-    border: 1px solid rgba(255, 255, 255, 0.25);
-    border-radius: 100%;
-    
+.socialMediaList ul li {
+  display: flex;
+  background: aliceblue;
+  background: rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  margin: 0px;
+  padding: 0px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 100%;
 }
 
-.socialMediaList > ul > li:hover{
-background-color: #15a072;
--webkit-transform:scale(1.2);transform:scale(1.2) 2s;
-transition: background-color 2s, scale 3s; 
-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.23);
+.socialMediaList > ul > li:hover {
+  background-color: #15a072;
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2) 2s;
+  transition: background-color 2s, scale 3s;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.23);
 }
 
-
-.socialMediaList ul li a{
-    color: #213547;
-    display: flex;
-        margin: 10px;
-        align-items: center;
-    
+.socialMediaList ul li a {
+  color: #213547;
+  display: flex;
+  margin: 10px;
+  align-items: center;
 }
 
-
-
-.cont{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+.cont {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 /*-------FIN-----------*/
 /*------TAPE STYLES____*/
-.tape{
-    width: 100%;
+.tape {
+  width: 100%;
 }
 
 /*-------FIN-----------*/
 
 /*----WHAT I DO SECTION STYLES----*/
 
-.whatIdo{
-    background-image: radial-gradient(rgba(25, 30, 41, 0.11) 2px, transparent 2px);
-background-size: 32px 32px;
-background-color: #008080;
-    /* padding: 0rem 0rem;
+.aboutMe {
+  background-image: radial-gradient(
+    rgba(25, 30, 41, 0.11) 2px,
+    transparent 2px
+  );
+  background-size: 32px 32px;
+  background-color: #008080;
+  /* padding: 0rem 0rem;
     display: flex;
     width:208vh;
     height: auto;
@@ -107,19 +112,20 @@ background-color: #008080;
     align-items: center;
     border-radius: 5%;
     overflow: hidden; */
-    display: flex;
-    flex-direction: column;
-    width: 90vw;
-    /* max-width: 98.8vw; */
-    overflow-x: hidden;
-    overflow-x:scroll;
-    /* /* width: 100%; */
-    max-width: 100vw; 
-    margin: 30px 0px 30px;
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  /* max-width: 98.8vw; */
+  /* overflow-x: hidden;
+    overflow-x:scroll; */
+  /* /* width: 100%; */
+  overflow: auto;
+  max-width: 100vw;
+  margin: 30px 0px 30px;
 }
 
-.whatIdo > div{
-    /* display: flex;
+.aboutMe > div > div {
+  /* display: flex;
     width:max-content;
     gap: 20px;
     justify-content: space-evenly;
@@ -127,81 +133,180 @@ background-color: #008080;
     height: 100%;
     overflow-x:scroll;
     margin: 30px; */
-    display: flex;
-    height: 100%;
-    width: fit-content;
-    gap: 20px;
-    /* overflow-x:scroll; */
-    justify-content: space-evenly;
-    margin: 200px 0px 30px;
-
+  display: flex;
+  height: 100%;
+  width: fit-content;
+  gap: 20px;
+  /* overflow-x:scroll; */
+  justify-content: space-evenly;
+  margin: 220px 0px 30px;
+  padding: 0px 30px;
 }
 
-.whatIdo::-webkit-scrollbar {
-    width: 90px; /* Ancho de la barra */
-    height: 9px;
-    scroll-behavior: smooth;
-    
-  }
-  
-  /* Color de fondo de la barra */
-  ::-webkit-scrollbar-track {
-    /* background: #932e2e; */
-    border-radius: 10px;
-  }
-  
-  /* Color y estilo del "thumb" (el área desplazable) */
-  ::-webkit-scrollbar-thumb {
-    background: #888;
-    border-radius: 10px;
-  }
-
-  .whatIdo > label{
-    position: absolute;
+.aboutMe::-webkit-scrollbar {
+  width: 90px; /* Ancho de la barra */
+  height: 9px;
+  scroll-behavior: smooth;
 }
 
-.whatIdo > label > h1 {
-    text-align: justify;
-    margin-top: 0px;
-    text-decoration: underline;
-
+/* Color de fondo de la barra */
+::-webkit-scrollbar-track {
+  /* background: #932e2e; */
+  border-radius: 10px;
 }
 
-.whatIdo > label > p {
-    width: 50%;
-    color: aliceblue;
-    text-align: justify;
-    margin-top: 0px;
+/* Color y estilo del "thumb" (el área desplazable) */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+.aboutMe label {
+  position: absolute;
+}
+
+.aboutMe label h1 {
+  text-align: justify;
+  margin-top: 0px;
+  text-decoration: underline;
+}
+
+.aboutMe label p {
+  width: 50%;
+  color: aliceblue;
+  text-align: justify;
+  margin-top: 0px;
 }
 
 /*-------FIN-----------*/
 
 /*---------MY SKILLS SECTION STYLES----*/
-.mySkills{
-    background-color: #7fffd438;
+.mySkills {
+  background-color: #7fffd438;
 }
-.mySkills > div{
-    /* width: 90vw; */
-    /* background-color: #213547; */
-    display: flex;
-    flex-wrap: wrap;
-    gap: 40px;
-    justify-content: center;
+.mySkills > div {
+  /* width: 90vw; */
+  /* background-color: #213547; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+
+.mySkills > div > label {
+  /* width: 90vw; */
+  /* background-color: #213547; */
+  width: 55%;
+}
+
+.mySkills > div > div {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 /*-------FIN-----------*/
 
+/*---------MY SKILLS SECTION STYLES----*/
+
+.services {
+  /* background-color: #7fffd438; */
+  text-align: center;
+}
+.services > div {
+  /* width: 90vw; */
+  /* background-color: #213547; */
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.services > div > label {
+  /* width: 90vw; */
+  /* background-color: #213547; */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/*-------FIN-----------*/
+/*---------MEDIA QUERY-------*/
+
 @media screen and (max-width: 780px) {
-    .hero {
-      flex-direction: column;
-      align-items: center;
-      height: fit-content;
-    }
-    .hero section{
-        margin: 30px 0px;
-        width: 100%
-    }
-    
-    .hero aside{
-        width: 70%;
-    }
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
   }
+  .hero section {
+    margin: 30px 0px;
+    width: 100%;
+  }
+
+  .hero h1 {
+    font-size: 2.2em;
+  }
+
+  .hero aside {
+    width: 100%;
+  }
+
+  .socialMediaList {
+    display: flex;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .socialMediaList ul {
+    width: 100%;
+  }
+}
+
+/*----ANIMACIONES DE SECCIONES------------*/
+@keyframes show {
+  from {
+    opacity: 0;
+    scale: 50%;
+  }
+
+  to {
+    opacity: 1;
+    scale: 100%;
+  }
+}
+
+.aboutMe label {
+  view-timeline-name: --image;
+  view-timeline-axis: block;
+
+  animation-timeline: --image;
+  animation-name: show;
+
+  animation-range: entry 25% cover 30%;
+  animation-fill-mode: both;
+}
+
+.mySkills div {
+  view-timeline-name: --image;
+  view-timeline-axis: block;
+
+  animation-timeline: --image;
+  animation-name: show;
+
+  animation-range: entry 25% cover 30%;
+  animation-fill-mode: both;
+}
+
+.hero aside {
+  view-timeline-name: --image;
+  view-timeline-axis: block;
+
+  animation-timeline: --image;
+  animation-name: show;
+
+  animation-range: entry 25% cover 30%;
+  animation-fill-mode: both;
+}

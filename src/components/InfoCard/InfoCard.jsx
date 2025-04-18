@@ -14,7 +14,8 @@ export default function InfoCard(props) {
   return (
     <>
       <div class="infoCard">
-        <div>
+      <aside>
+
         {
           props.titulo == "Frontend Dev Jr" ? <PiCodeFill size={50} /> : <></> 
         }
@@ -33,11 +34,10 @@ export default function InfoCard(props) {
         {
           props.titulo == "Analista Jr de Infraestructura" ? <FaServer size={50} /> : <></>
         }
-        </div>
+        
         {/* <a href="https://www.google.com/webhp?hl=es-419&sa=X&ved=0ahUKEwjr7fK-yOWLAxV1VTABHeIOPAYQPAgI"> */}
         {/* </a> */}
-        <aside>
-            <h1>{props.titulo}</h1>
+            <h2>{props.titulo}</h2>
             <p class="info varela-round-regular">{props.texto}</p>
         </aside>
       </div>

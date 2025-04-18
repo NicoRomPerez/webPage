@@ -53,36 +53,26 @@ export default function Home() {
         <div class="tape">
           <Tape></Tape>
         </div>
-        <div class="whatIdo">
-          <label>
-            <h1 class="title">About Me</h1>
-            <label>Dev perfil</label>
-            <p class="varela-round-regular">
-              Front-end software developer, ADSI (Analysis and Development of
-              Information Systems) technologist, with experience in creating
-              dynamic, reusable and scalable interfaces, focused on offering
-              innovative and high-impact solutions.
-            </p>
-          </label>
-          <WhatIDo></WhatIDo>
+        <div class="aboutMe" id="AboutMe">
+          <WhatIDo
+            title="About Me"
+            subtitle="Dev perfil"
+            text="Front-end software developer, ADSI (Analysis and Development of Information Systems) technologist, with experience in creating dynamic, reusable and scalable interfaces, focused on offering innovative and high-impact solutions."
+          ></WhatIDo>
         </div>
         <div class="mySkills">
-          <label>
-            <h1 class="title">My Skills Set</h1>
-            <label><b>Dev perfi</b>l</label>
-            <p class="varela-round-regular">
-              Front-end software developer, ADSI (Analysis and Development of
-              Information Systems) technologist, with experience in creating
-              dynamic, reusable and scalable interfaces, focused on offering
-              innovative and high-impact solutions.
-            </p>
-          </label>
-          <div>
-            <InfoCard titulo={"UI/UX"} texto={"tratartartartar"}></InfoCard>
-            <InfoCard titulo={"UI/UX"} texto={"tratartartartar"}></InfoCard>
-            <InfoCard titulo={"UI/UX"} texto={"tratartartartar"}></InfoCard>
-            <InfoCard titulo={"UI/UX"} texto={"tratartartartar"}></InfoCard>
-          </div>
+          <WhatIDo
+            title="My skills"
+            subtitle="Dev perfil"
+            text="Front-end software developer, ADSI (Analysis and Development of Information Systems) technologist, with experience in creating dynamic, reusable and scalable interfaces, focused on offering innovative and high-impact solutions."
+          ></WhatIDo>
+        </div>
+        <div class="services">
+          <WhatIDo
+            title="My tecnologias"
+            subtitle="Dev perfil"
+            text="Front-end software developer, ADSI (Analysis and Development of Information Systems) technologist, with experience in creating dynamic, reusable and scalable interfaces, focused on offering innovative and high-impact solutions."
+          ></WhatIDo>
         </div>
       </div>
     </>

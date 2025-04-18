@@ -29,7 +29,7 @@ export default function ProfilCard() {
         <figure>
           <img src={heronico}/>
         </figure>
-        <div class="info varela-round-regular">
+        <div class="info">
           <h2>{infoCv.personal_info.full_name}</h2>
           <label>{profilCardInfo.profesion}</label>
           <ul class="contactList">
